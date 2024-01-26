@@ -4,6 +4,7 @@ function App() {
     <ul>
       <li>Khalid Mahfudh : 150504044</li>
       <li>John Doe : 150504064</li>
+      <li>Balmond : 150504012</li>
     </ul>
   </div>;
 }
