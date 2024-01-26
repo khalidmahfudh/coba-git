@@ -8,8 +8,13 @@ Git Command
 - perintah cmd, alias graph="git log --all --decorate --oneline --graph"
 - git branch : melihat seluruh branch yang ada
 - git branch <nama_branch> : membuat branch baru
+- git branch -d <nama_dosen> : menghapus branch yang sudah di merge
+- git branch -D <nama_dosen> : dapat menghapus branch yang belum dimerge secara paksa
+- git branch --merged : melihat branch yang sudah di merge
 - git checkout <kode_commit_5_digit> : berbindah ke commit lain dengan memasukan 5 digit awal kode commit 
 - git chekcout <nama_branch> :  berpindah branch
+- git merge <nama_branch> : melakukan merged
 - git merge HEAD@{1} : Akan menggabungkan perubahan dari commit terakhir yang di checkout sebelumnya ke branch master. Dengan melakukan merge ini, branch master akan diperbarui ke commit terakhir yang ada di head.
++ Fast forwad merge, melakukan merge secara langsung, Three way merged, malakukan merged kedua branch namun tidak terhubung langsung, sekalian merged harus juga membuat commit baru
 
 
