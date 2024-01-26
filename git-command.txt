@@ -4,9 +4,12 @@ Git Command
 - git commit -m "pesan commit" : melakukan commit perubahan di staging area
 - git commit -am "pesan commit" : melakukan commit seluruh perubahan secara langsung dengan menggabungkan perintah add dan commit file yang modified
 - git log : melihat history commit yang ada
+- git log --all --decorate --oneline --graph : melihat history commit dalam bentuk visual
+- perintah cmd, alias graph="git log --all --decorate --oneline --graph"
 - git branch : melihat seluruh branch yang ada
 - git branch <nama_branch> : membuat branch baru
 - git checkout <kode_commit_5_digit> : berbindah ke commit lain dengan memasukan 5 digit awal kode commit 
+- git chekcout <nama_branch> :  berpindah branch
 - git merge HEAD@{1} : Akan menggabungkan perubahan dari commit terakhir yang di checkout sebelumnya ke branch master. Dengan melakukan merge ini, branch master akan diperbarui ke commit terakhir yang ada di head.
 
 
