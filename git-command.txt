@@ -5,7 +5,7 @@ Git Command
 - git commit -am "pesan commit" : melakukan commit seluruh perubahan secara langsung dengan menggabungkan perintah add dan commit file yang modified
 - git log : melihat history commit yang ada
 - git log --all --decorate --oneline --graph : melihat history commit dalam bentuk visual
-- perintah cmd, alias graph="git log --all --decorate --oneline --graph"
++ perintah cmd, alias graph="git log --all --decorate --oneline --graph"
 - git branch : melihat seluruh branch yang ada
 - git branch <nama_branch> : membuat branch baru
 - git branch -d <nama_dosen> : menghapus branch yang sudah di merge
@@ -16,7 +16,7 @@ Git Command
 - git merge <nama_branch> : melakukan merged
 - git merge HEAD@{1} : Akan menggabungkan perubahan dari commit terakhir yang di checkout sebelumnya ke branch master. Dengan melakukan merge ini, branch master akan diperbarui ke commit terakhir yang ada di head.
 - git reset --hard <kode_commit> : Perintah ini akan menghapus semua commit setelah commit yang dipilih dan mengubah branch master ke commit tersebut. 
-
+- git clone https://github.com/user/repo.git : mencopy atau clone repo yang ada di github kedalam git local
 + Fast forwad merge, melakukan merge secara langsung, Three way merged, malakukan merged kedua branch namun tidak terhubung langsung, sekalian merged harus juga membuat commit baru
 
 
