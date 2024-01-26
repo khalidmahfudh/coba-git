@@ -1,0 +1,12 @@
+Git Command
+- git init : Inisialisasi folder menjadi repositori git
+- git add . : Memasukkan seluruh perubahan file ke staging area
+- git commit -m "pesan commit" : melakukan commit perubahan di staging area
+- git commit -am "pesan commit" : melakukan commit seluruh perubahan secara langsung dengan menggabungkan perintah add dan commit file yang modified
+- git log : melihat history commit yang ada
+- git branch : melihat seluruh branch yang ada
+- git branch <nama_branch> : membuat branch baru
+- git checkout <kode_commit_5_digit> : berbindah ke commit lain dengan memasukan 5 digit awal kode commit 
+- git merge HEAD@{1} : Akan menggabungkan perubahan dari commit terakhir yang di checkout sebelumnya ke branch master. Dengan melakukan merge ini, branch master akan diperbarui ke commit terakhir yang ada di head.
+
+
