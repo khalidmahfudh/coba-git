@@ -15,6 +15,8 @@ Git Command
 - git chekcout <nama_branch> :  berpindah branch
 - git merge <nama_branch> : melakukan merged
 - git merge HEAD@{1} : Akan menggabungkan perubahan dari commit terakhir yang di checkout sebelumnya ke branch master. Dengan melakukan merge ini, branch master akan diperbarui ke commit terakhir yang ada di head.
+- git reset --hard <kode_commit> : Perintah ini akan menghapus semua commit setelah commit yang dipilih dan mengubah branch master ke commit tersebut. 
+
 + Fast forwad merge, melakukan merge secara langsung, Three way merged, malakukan merged kedua branch namun tidak terhubung langsung, sekalian merged harus juga membuat commit baru
 
 
