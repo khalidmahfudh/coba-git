@@ -27,6 +27,8 @@ Git Command
 - git config --list : Untuk mengecek config didalam git
 - git push : melakukan push atau update dari local ke remote
 - git push -u origin main : melakukan push pertama kali ke remote setelah bikin repo baru diremote
+- git fetch : mengecek sejauh mana commit yang ada di repo remote
+- git pull : menarik dulu ke local perubahan yang ada di repo remote
 + Fast forwad merge, melakukan merge secara langsung, Three way merged, malakukan merged kedua branch namun tidak terhubung langsung, sekalian merged harus juga membuat commit baru
 
 
