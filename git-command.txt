@@ -15,8 +15,18 @@ Git Command
 - git chekcout <nama_branch> :  berpindah branch
 - git merge <nama_branch> : melakukan merged
 - git merge HEAD@{1} : Akan menggabungkan perubahan dari commit terakhir yang di checkout sebelumnya ke branch master. Dengan melakukan merge ini, branch master akan diperbarui ke commit terakhir yang ada di head.
-- git reset --hard <kode_commit> : Perintah ini akan menghapus semua commit setelah commit yang dipilih dan mengubah branch master ke commit tersebut. 
+- git reset --hard <kode_commit> : Perintah ini akan menghapus semua commit setelah commit yang dipilih dan mengubah branch master ke commit tersebut
 - git clone https://github.com/user/repo.git : mencopy atau clone repo yang ada di github kedalam git local
+- git branch -m nama_branch_lama nama_branch_baru : melakukan rename nama branch
+- git branch -M main : mengubah branch default master menjadi main, sebelumnya, konvensi umum dalam Git adalah menggunakan nama branch "master" sebagai branch utama. Namun, untuk menghindari penggunaan istilah yang merujuk pada sejarah perbudakan, banyak komunitas dan platform Git seperti GitHub telah beralih ke menggunakan nama branch "main" sebagai gantinya
+- git remote : mengecek nama remote repo yang di clone, default nama remote yaitu "origin"
+- git remote -v : mengecek nama remote repo yang di clone beserta alamat remotenya
+- git config --global user.name "nama_pengguna" : mengatur username secara global, samakan dengan yang di github untuk memudahkan saat melakukan push
+- git config --global user.email "alamat_email" : mengatur email secara global, samakan dengan yang di github untuk memudahkan saat melakukan push
+- git config --global credential.helper manager : Untuk menyimpan password agar tidak perlu memasukkan password setiap kali berinteraksi dengan GitHub
+- git config --list : Untuk mengecek config didalam git
+- git push : melakukan push atau update dari local ke remote
+- git push -u origin main : melakukan push pertama kali ke remote setelah bikin repo baru diremote
 + Fast forwad merge, melakukan merge secara langsung, Three way merged, malakukan merged kedua branch namun tidak terhubung langsung, sekalian merged harus juga membuat commit baru
 
 
